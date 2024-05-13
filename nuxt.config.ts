@@ -19,7 +19,8 @@ export default defineNuxtConfig({
         wght: '200..900',
         ital: '200..700',
       },
-      Abel: true
+      Abel: true,
+      Sans: true
     }
   },
   postcss: {
