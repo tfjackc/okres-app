@@ -1,32 +1,21 @@
 <template>
-  <div class="drop-shadow-md flex flex-col sm:flex-row items-center justify-between py-5"
-       :class="{ 'bg-sky-400': theme.global.current.value.dark, 'bg-sky-900': !theme.global.current.value.dark }">
+  <div class="drop-shadow-md flex flex-col sm:flex-row items-center justify-between py-5 bg-sky-800">
     <div class="flex flex-col sm:flex-row">
-      <div class="flex flex-row">
-
-        <NuxtImg src="PaigeVoegeli_WhiteText.png" height="150"/>
-
+      <div class="flex flex-col sm:flex-row">
+        <NuxtImg src="PaigeVoegeli_WhiteText.png" sizes="100vw sm:200px"/>
         <div class="flex flex-col justify-center">
           <h1 class="font-abel ml-5 sm:ml-0 text-3xl sm:text-6xl font-semibold text-white flex items-center">OKres Consulting LLC</h1>
-          <div class="text-xl flex ml-5 sm:ml-0 text-white pl-20 italic">
+          <div class="text-xl flex ml-5 text-white sm:pl-20 sm:py-5 py-0 italic justify-center sm:justify-left">
             Contract petroleum engineering firm with expertise in reserve evaluations.
           </div>
         </div>
-
-      <button class="block sm:hidden ml-5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 w-16 h-10 rounded-2xl" @click="toggleTheme">
-        <Icon color="white" name="mdi:theme-light-dark" size="24"></Icon>
-      </button>
       </div>
-<!--      <h3 class="ml-5 mt-0 sm:mt-2 text-xl sm:text-l text-white flex items-end">GIS ANALYST @ CROOK COUNTY</h3>-->
     </div>
-    <div class="flex flex-row mr-5">
-<!--      <NuxtLink :to="`/${routeButton}`" class="text-amber-50 flex items-center mr-5 no-underline hover:underline" @click="changeText">-->
-<!--        <Icon :name="icon" size="36"></Icon>-->
-<!--        <span class="ml-2">{{buttonText}}</span>-->
-<!--      </NuxtLink>-->
-<!--      <button class="hidden sm:block bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 w-16 h-10 rounded-2xl" @click="toggleTheme">-->
-<!--        <Icon color="white" name="mdi:theme-light-dark" size="24"></Icon>-->
-<!--      </button>-->
+    <div class="mr-5">
+      <NuxtLink :to="`/${routeButton}`" class="text-amber-50 flex items-center mr-5 no-underline hover:underline" @click="changeText">
+        <Icon :name="icon" size="36"></Icon>
+        <span class="ml-2">{{buttonText}}</span>
+      </NuxtLink>
     </div>
   </div>
 </template>

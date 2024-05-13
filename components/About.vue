@@ -26,6 +26,9 @@
         <div class="px-14 text-gray-700 italic">
           Acquisition & Divestiture Asset Evaluations
         </div>
+        <div class="mt-5">
+          For pricing, contact Paige at paige@okreserves.com or 918-694-4111
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -34,3 +37,5 @@
 <style scoped>
 
 </style>
+
+
