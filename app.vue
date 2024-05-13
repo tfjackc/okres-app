@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Meta name="twitter:image" content="https://herokustatic.s3.us-west-2.amazonaws.com/twitter_image.png"></Meta>
+    <Meta name="twitter:image" content="https://herokustatic.s3.us-west-2.amazonaws.com/headshot.jpg"></Meta>
   </Head>
   <NuxtLayout>
     <v-app id="inspire">
@@ -14,11 +14,11 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Jack Colpitt - GIS Analyst @ Crook County, Oregon',
-  ogTitle: 'Jack Colpitt - GIS Analyst @ Crook County, Oregon',
-  description: 'Webpage / Contact Card Site for Jack Colpitt',
-  ogDescription: 'Webpage / Contact Card Site for Jack Colpitt',
-  ogImage: 'https://herokustatic.s3.us-west-2.amazonaws.com/twitter_image.png',
+  title: 'OKres Consulting LLC - Paige Voegeli',
+  ogTitle: 'OKres Consulting LLC - Paige Voegeli',
+  description: 'Contract petroleum engineering firm with expertise in reserve evaluations.',
+  ogDescription: 'Contract petroleum engineering firm with expertise in reserve evaluations.',
+  ogImage: 'https://herokustatic.s3.us-west-2.amazonaws.com/headshot.jpg',
   twitterCard: 'summary_large_image',
 })
 import { ref } from 'vue'

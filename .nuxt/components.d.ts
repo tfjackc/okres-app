@@ -1,10 +1,6 @@
 
 interface _GlobalComponents {
-      'CardComponent': typeof import("../components/CardComponent.vue")['default']
-    'ContactCard': typeof import("../components/ContactCard.vue")['default']
-    'ContactCardModal': typeof import("../components/ContactCardModal.vue")['default']
-    'Map': typeof import("../components/Map.vue")['default']
-    'NameAndTitle': typeof import("../components/NameAndTitle.vue")['default']
+      'ContactCard': typeof import("../components/ContactCard.vue")['default']
     'Navbar': typeof import("../components/Navbar.vue")['default']
     'Services': typeof import("../components/Services.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -30,11 +26,7 @@ interface _GlobalComponents {
     'Head': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Head']
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
-      'LazyCardComponent': typeof import("../components/CardComponent.vue")['default']
-    'LazyContactCard': typeof import("../components/ContactCard.vue")['default']
-    'LazyContactCardModal': typeof import("../components/ContactCardModal.vue")['default']
-    'LazyMap': typeof import("../components/Map.vue")['default']
-    'LazyNameAndTitle': typeof import("../components/NameAndTitle.vue")['default']
+      'LazyContactCard': typeof import("../components/ContactCard.vue")['default']
     'LazyNavbar': typeof import("../components/Navbar.vue")['default']
     'LazyServices': typeof import("../components/Services.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -74,11 +66,7 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
-export const CardComponent: typeof import("../components/CardComponent.vue")['default']
 export const ContactCard: typeof import("../components/ContactCard.vue")['default']
-export const ContactCardModal: typeof import("../components/ContactCardModal.vue")['default']
-export const Map: typeof import("../components/Map.vue")['default']
-export const NameAndTitle: typeof import("../components/NameAndTitle.vue")['default']
 export const Navbar: typeof import("../components/Navbar.vue")['default']
 export const Services: typeof import("../components/Services.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -104,11 +92,7 @@ export const Style: typeof import("../node_modules/nuxt/dist/head/runtime/compon
 export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Head']
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
-export const LazyCardComponent: typeof import("../components/CardComponent.vue")['default']
 export const LazyContactCard: typeof import("../components/ContactCard.vue")['default']
-export const LazyContactCardModal: typeof import("../components/ContactCardModal.vue")['default']
-export const LazyMap: typeof import("../components/Map.vue")['default']
-export const LazyNameAndTitle: typeof import("../components/NameAndTitle.vue")['default']
 export const LazyNavbar: typeof import("../components/Navbar.vue")['default']
 export const LazyServices: typeof import("../components/Services.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
