@@ -14,8 +14,8 @@ export default defineEventHandler(async (event) => {
         Source: "colpitt.jack@gmail.com", // required
         Destination: { // Destination
             ToAddresses: [ // AddressList
+                "paige.colpitt@gmail.com",
                 "colpitt.jack@gmail.com",
-                "Paige.colpitt@gmail.com",
             ],
         },
         Message: { // Message

@@ -1095,8 +1095,8 @@ const awsEmail_post = defineEventHandler(async (event) => {
       // Destination
       ToAddresses: [
         // AddressList
-        "colpitt.jack@gmail.com",
-        "Paige.colpitt@gmail.com"
+        "paige.colpitt@gmail.com",
+        "colpitt.jack@gmail.com"
       ]
     },
     Message: {

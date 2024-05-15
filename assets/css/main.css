@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-    font-family: 'Geist', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #000000;
-    text-align: left;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
 @font-face {
     font-family: 'Geist'; /* Provide a name for your font */
