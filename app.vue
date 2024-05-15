@@ -3,8 +3,8 @@
     <Meta name="twitter:image" content="https://herokustatic.s3.us-west-2.amazonaws.com/headshot.jpg"></Meta>
   </Head>
   <NuxtLayout>
-    <v-app id="inspire">
-      <Navbar v-if="routeName != 'map'"/>
+    <v-app id="inspire" class="w-full">
+      <Navbar />
       <v-main>
         <NuxtPage />
       </v-main>
