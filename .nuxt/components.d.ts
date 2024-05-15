@@ -1,6 +1,7 @@
 
 interface _GlobalComponents {
-      'ContactCard': typeof import("../components/ContactCard.vue")['default']
+      'Bio': typeof import("../components/Bio.vue")['default']
+    'ContactCard': typeof import("../components/ContactCard.vue")['default']
     'Navbar': typeof import("../components/Navbar.vue")['default']
     'Services': typeof import("../components/Services.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -26,7 +27,8 @@ interface _GlobalComponents {
     'Head': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Head']
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
-      'LazyContactCard': typeof import("../components/ContactCard.vue")['default']
+      'LazyBio': typeof import("../components/Bio.vue")['default']
+    'LazyContactCard': typeof import("../components/ContactCard.vue")['default']
     'LazyNavbar': typeof import("../components/Navbar.vue")['default']
     'LazyServices': typeof import("../components/Services.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -66,6 +68,7 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const Bio: typeof import("../components/Bio.vue")['default']
 export const ContactCard: typeof import("../components/ContactCard.vue")['default']
 export const Navbar: typeof import("../components/Navbar.vue")['default']
 export const Services: typeof import("../components/Services.vue")['default']
@@ -92,6 +95,7 @@ export const Style: typeof import("../node_modules/nuxt/dist/head/runtime/compon
 export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Head']
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
+export const LazyBio: typeof import("../components/Bio.vue")['default']
 export const LazyContactCard: typeof import("../components/ContactCard.vue")['default']
 export const LazyNavbar: typeof import("../components/Navbar.vue")['default']
 export const LazyServices: typeof import("../components/Services.vue")['default']

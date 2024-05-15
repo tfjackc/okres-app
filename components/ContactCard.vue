@@ -2,10 +2,10 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <div class="text-3xl flex justify-center">
+        <div class="text-3xl flex font-sans justify-center">
           Contact Form
         </div>
-        <hr class="my-4 border-gray-400">
+        <!-- <hr class="my-4 border-gray-400"> -->
       </v-col>
     </v-row>
     <v-row>
