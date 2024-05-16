@@ -3,6 +3,7 @@
     <Services />
     <hr class="my-4 border-gray-400">
     <Bio />
+    <Endorsement />
     <hr class="my-4 border-gray-400">
     <ContactCard />
   </div>
