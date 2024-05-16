@@ -2,6 +2,7 @@
 interface _GlobalComponents {
       'Bio': typeof import("../components/Bio.vue")['default']
     'ContactCard': typeof import("../components/ContactCard.vue")['default']
+    'Endorsement': typeof import("../components/Endorsement.vue")['default']
     'Navbar': typeof import("../components/Navbar.vue")['default']
     'Services': typeof import("../components/Services.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -29,6 +30,7 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
       'LazyBio': typeof import("../components/Bio.vue")['default']
     'LazyContactCard': typeof import("../components/ContactCard.vue")['default']
+    'LazyEndorsement': typeof import("../components/Endorsement.vue")['default']
     'LazyNavbar': typeof import("../components/Navbar.vue")['default']
     'LazyServices': typeof import("../components/Services.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -70,6 +72,7 @@ declare module 'vue' {
 
 export const Bio: typeof import("../components/Bio.vue")['default']
 export const ContactCard: typeof import("../components/ContactCard.vue")['default']
+export const Endorsement: typeof import("../components/Endorsement.vue")['default']
 export const Navbar: typeof import("../components/Navbar.vue")['default']
 export const Services: typeof import("../components/Services.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -97,6 +100,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyBio: typeof import("../components/Bio.vue")['default']
 export const LazyContactCard: typeof import("../components/ContactCard.vue")['default']
+export const LazyEndorsement: typeof import("../components/Endorsement.vue")['default']
 export const LazyNavbar: typeof import("../components/Navbar.vue")['default']
 export const LazyServices: typeof import("../components/Services.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']

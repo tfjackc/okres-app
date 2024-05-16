@@ -1,1 +1,1 @@
-export { default } from "file:///media/jcolpitt/71D02B26435294D7/okres-app/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///C:/Users/jcolpitt/okres-app/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
